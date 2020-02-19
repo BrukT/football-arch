@@ -11,7 +11,7 @@ package app;
  */
 public class Main {
     public static void main(String[] args) {
-        MainWind login = new MainWind();
+        LoginWind login = new LoginWind();
         login.setVisible(true);
     }
 }

@@ -5,16 +5,18 @@
  */
 package app;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author bruk
  */
-public class MainWind extends javax.swing.JFrame {
+public class LoginWind extends javax.swing.JFrame {
 
     /**
      * Creates new form MainWind
      */
-    public MainWind() {
+    public LoginWind() {
         initComponents();
     }
 
@@ -122,7 +124,16 @@ public class MainWind extends javax.swing.JFrame {
         String collName = "users";
         boolean present = users.verifyUser(username,password,dbName,collName);
         if(present){
-            ;=
+            if(username.compareTo("admin") == 0){
+                AdminWIndow win = new AdminWIndow(username);
+                win.setVisible(true);
+            }else{
+                UserWindow win = new UserWindow(username);
+                win.setVisible(false);
+            }
+            setVisible(false);
+        }else{
+            JOptionPane optionPane = new JOptionPane("Wrong Credentials", JOptionPane.ERROR_MESSAGE); 
         }
     }//GEN-LAST:event_jButton1MouseClicked
 
@@ -143,20 +154,21 @@ public class MainWind extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MainWind.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(LoginWind.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MainWind.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(LoginWind.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MainWind.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(LoginWind.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MainWind.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(LoginWind.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainWind().setVisible(true);
+                new LoginWind().setVisible(true);
             }
         });
     }
