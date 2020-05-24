@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "5ea2e98ea327aa62f1755abb"
+  },
+  "username": "admin",
+  "password": "admin",
+  "admin": true
+},{
+  "_id": {
+    "$oid": "5ea567cc60815c21c7245548"
+  },
+  "username": "nicola.mota",
+  "password": "nicola",
+  "favoriteLeague": "Serie A"
+},{
+  "_id": {
+    "$oid": "5ea567e160815c21c724554a"
+  },
+  "username": "giacomo.pellicci",
+  "password": "giacomo",
+  "favoriteLeague": "La Liga"
+},{
+  "_id": {
+    "$oid": "5ea5864ad721f85afa44d3b0"
+  },
+  "username": "paolo rossi",
+  "password": "paolo",
+  "favoriteLeague": "Serie A"
+},{
+  "_id": {
+    "$oid": "5ea58662d721f85afa44d3b1"
+  },
+  "username": "mario11",
+  "password": "mario",
+  "favoriteLeague": "Serie A"
+},{
+  "_id": {
+    "$oid": "5ea58671d721f85afa44d3b2"
+  },
+  "username": "lorenzo.neri",
+  "password": "lorenzo",
+  "favoriteLeague": "Serie A"
+},{
+  "_id": {
+    "$oid": "5ea58699d721f85afa44d3b3"
+  },
+  "username": "john2905",
+  "password": "john",
+  "favoriteLeague": "Premier League"
+},{
+  "_id": {
+    "$oid": "5ea586a9d721f85afa44d3b4"
+  },
+  "username": "alvaro2210",
+  "password": "alvaro",
+  "favoriteLeague": "La Liga"
+},{
+  "_id": {
+    "$oid": "5ea586b7d721f85afa44d3b5"
+  },
+  "username": "mike",
+  "password": "mike",
+  "favoriteLeague": "Bundesliga"
+},{
+  "_id": {
+    "$oid": "5ea586ead721f85afa44d3b6"
+  },
+  "username": "david.black",
+  "password": "david",
+  "favoriteLeague": "Premier League"
+},{
+  "_id": {
+    "$oid": "5ea58706d721f85afa44d3b7"
+  },
+  "username": "lewis.jackson",
+  "password": "lewis",
+  "favoriteLeague": "Premier League"
+},{
+  "_id": {
+    "$oid": "5ea5871dd721f85afa44d3b8"
+  },
+  "username": "ilary18",
+  "password": "ilary",
+  "favoriteLeague": "La Liga"
+},{
+  "_id": {
+    "$oid": "5ea5873ad721f85afa44d3b9"
+  },
+  "username": "sarah.brown",
+  "password": "sarah",
+  "favoriteLeague": "Bundesliga"
+},{
+  "_id": {
+    "$oid": "5ea58777e39619447096ba61"
+  },
+  "username": "lisa.simpson",
+  "password": "lisa",
+  "favoriteLeague": "Premier League"
+},{
+  "_id": {
+    "$oid": "5ea5883be39619447096ba62"
+  },
+  "username": "bruk",
+  "password": "bruk",
+  "favoriteLeague": "Premier League"
+}]
