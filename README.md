@@ -1,3 +1,5 @@
 # football-arch
 
-second task of Information Systems course
+A football informatoin tracking system based on mongoDB.
+
+The implementation details are found [here](./DOCUMENTATION.pdf).
